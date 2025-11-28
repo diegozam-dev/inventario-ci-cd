@@ -62,6 +62,7 @@ const [count, setCount] = useState(0)*/
             value={nombre}
             onChange={e => setNombre(e.target.value)}
             placeholder="Cable HDMI"
+            className="input"
           />
         </div>
         <button type="submit">Crear producto</button>
